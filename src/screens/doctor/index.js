@@ -1,0 +1,10 @@
+export { default as DoctorAccount } from "./AccountAndBilling";
+export { default as DoctorDashboard } from "./Dashboard";
+export { default as DoctorAppointment } from "./DoctorAppointment";
+export { default as DoctorProfile } from "./DoctorProfile";
+export { default as DoctorSettings } from "./DoctorSettings";
+export { default as DoctorSubscription } from "./DoctorSubscription";
+export { default as MyPatients } from "./MyPatients";
+export { default as DoctorRegisteration } from "./Registeration";
+export { default as SmartAssistant } from "./SmartAssistant";
+export { default as DoctorRewards } from "./DoctorRewards";
