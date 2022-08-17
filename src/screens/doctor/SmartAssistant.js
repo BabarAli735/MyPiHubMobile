@@ -1,4 +1,4 @@
-import { MaterialCommunityIcons } from 'react-native-vector-icons'
+import  MaterialCommunityIcons  from 'react-native-vector-icons/MaterialCommunityIcons'
 import {
   Avatar,
   Divider,

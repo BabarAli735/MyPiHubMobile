@@ -1,4 +1,4 @@
-import { MaterialCommunityIcons } from'react-native-vector-icons'
+import  MaterialCommunityIcons  from'react-native-vector-icons/MaterialCommunityIcons'
 import DatePicker from "@react-native-community/datetimepicker";
 import {
   Avatar,
@@ -17,7 +17,8 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 import { Block, Button, Image, Input, Text } from "../../components";
 import SelectActionSheet from "../../components/SelectActionSheet";
 import { mocks } from "../../constants";
-import { useTheme, useTranslation } from "../../hooks";
+import { useTheme } from "../../hooks";
+import {useTranslation} from 'react-i18next'
 import FamiltyModal from "./DashboardComponents/FamiltyModal";
 import OffersModal from "./DashboardComponents/OffersModal";
 import PromoModal from "./DashboardComponents/PromoModal";

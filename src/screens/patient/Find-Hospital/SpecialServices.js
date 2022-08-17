@@ -1,4 +1,5 @@
-import { FontAwesome5, MaterialIcons } from "react-native-vector-icons";
+import  MaterialIcons  from "react-native-vector-icons/MaterialIcons";
+import  FontAwesome5  from "react-native-vector-icons/FontAwesome5";
 import { Box, HStack, Stack, Text } from "native-base";
 import { useTheme } from "../../../hooks";
 

@@ -1,4 +1,4 @@
-import { FontAwesome5 } from 'react-native-vector-icons'
+import  FontAwesome5  from 'react-native-vector-icons/FontAwesome5'
 import DatePicker from "@react-native-community/datetimepicker";
 import { useNavigation } from "@react-navigation/core";
 import { Center, Modal, VStack } from "native-base";
@@ -10,8 +10,8 @@ import { Block, Button, Image, Input, Text } from "../../components";
 import SelectActionSheet from "../../components/SelectActionSheet";
 import * as regex from "../../constants/regex";
 import { AuthContext } from "../../contexts/auth";
-import { useTheme, useTranslation } from "../../hooks";
-
+import { useTheme, } from "../../hooks";
+import {useTranslation} from 'react-i18next'
 const isAndroid = Platform.OS === "android";
 
 const Registration = () => {
@@ -143,7 +143,7 @@ const Registration = () => {
                   transform={[{ rotate: "180deg" }]}
                 />
                 <Text p white marginLeft={sizes.s}>
-                  {t("common.goBack")}
+                  {t("common:goBack")}
                 </Text>
               </Button>
 

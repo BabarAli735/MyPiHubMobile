@@ -160,11 +160,11 @@ const Input = ({
           />
         )}
         {icon &&
-          // <Image
-          //   source={assets?.[icon]}
-          //   style={{marginLeft: sizes.inputPadding, tintColor: colors.icon}}
-          // />
-          icon}
+          <Image
+            source={assets?.[icon]}
+            style={{marginLeft: sizes.inputPadding, tintColor: colors.icon}}
+          />
+          }
       </Block>
     </Block>
   );

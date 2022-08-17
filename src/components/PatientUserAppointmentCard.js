@@ -1,10 +1,10 @@
-import { AntDesign } from 'react-native-vector-icons/AntDesign';
+import  AntDesign  from 'react-native-vector-icons/AntDesign';
 import React from "react";
-import { useTheme, useTranslation } from "../hooks";
+import { useTheme } from "../hooks";
 import Block from "./Block";
 import Image from "./Image";
 import Text from "./Text";
-
+import {useTranslation} from 'react-i18next'
 const PatientUserAppointmentCard = ({
   image,
   title,

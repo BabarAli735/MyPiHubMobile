@@ -1,4 +1,4 @@
-import { FontAwesome5 } from "react-native-vector-icons";
+import  FontAwesome5  from "react-native-vector-icons/FontAwesome5";
 import {
   Actionsheet,
   Button as NBButton,

@@ -1,6 +1,7 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React from "react";
-import { useScreenOptions, useTranslation } from "../hooks";
+import { useScreenOptions, } from "../hooks";
+import {useTranslation} from 'react-i18next'
 import {
   PatientAccountAndBilling,
   PatientAppointment,
@@ -190,7 +191,7 @@ export default () => {
       <Stack.Screen
         name="PatientSettings"
         component={PatientSettings}
-        options={{ title: t("navigation.settings"), ...screenOptions.profile }}
+        options={{ title: t("navigation:settings"), ...screenOptions.profile }}
       />
 
       <Stack.Screen name="PatientInbox" component={Chats} />

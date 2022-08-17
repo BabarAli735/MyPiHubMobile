@@ -1,8 +1,7 @@
-import {
-  FontAwesome5,
-  MaterialCommunityIcons,
-  MaterialIcons,
-} from "react-native-vector-icons";
+
+import  MaterialIcons  from "react-native-vector-icons/MaterialIcons";
+import  FontAwesome5  from "react-native-vector-icons/FontAwesome5";
+import  MaterialCommunityIcons  from "react-native-vector-icons/MaterialCommunityIcons";
 import { Box, Center, Divider, HStack, Stack, Text, VStack } from "native-base";
 import React, { useState } from "react";
 import { FlatList, StyleSheet } from "react-native";

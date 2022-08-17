@@ -1,5 +1,6 @@
 import { Center, HStack, VStack, Text, Icon } from "native-base";
-import { Feather, FontAwesome5 } from 'react-native-vector-icons'
+import  FontAwesome5  from "react-native-vector-icons/FontAwesome5";
+import  Feather  from "react-native-vector-icons/Feather";
 
 export default () => {
   return (

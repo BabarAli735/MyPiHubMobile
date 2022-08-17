@@ -6,9 +6,9 @@ import {
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Animated, StyleSheet } from "react-native";
 import { Block, Button, Image, Switch, Text } from "../components";
-import { useData, useTheme, useTranslation } from "../hooks";
+import { useData, useTheme } from "../hooks";
 import Screens from "./DoctorScreens";
-
+import {useTranslation} from 'react-i18next'
 const Drawer = createDrawerNavigator();
 
 /* drawer menu screens navigation */

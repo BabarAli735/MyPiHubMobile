@@ -1,4 +1,5 @@
-import { AntDesign, MaterialCommunityIcons } from "react-native-vector-icons";
+import  MaterialCommunityIcons  from "react-native-vector-icons/MaterialCommunityIcons";
+import  AntDesign  from "react-native-vector-icons/AntDesign";
 import {
   Center,
   Divider,

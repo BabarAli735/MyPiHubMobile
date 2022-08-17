@@ -1,4 +1,5 @@
-import { Feather, FontAwesome5 } from "react-native-vector-icons";
+import  FontAwesome5  from "react-native-vector-icons/FontAwesome5";
+import  Feather  from "react-native-vector-icons/Feather";
 import { HStack, Icon, Text, VStack } from "native-base";
 import * as React from "react";
 import { Area, Chart, Line, Tooltip } from "react-native-responsive-linechart";

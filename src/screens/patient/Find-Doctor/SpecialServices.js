@@ -1,4 +1,4 @@
-import { FontAwesome5 } from "react-native-vector-icons";
+import  FontAwesome5  from "react-native-vector-icons/FontAwesome5";
 import { Box, HStack, Stack, Text, VStack } from "native-base";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { useTheme } from "../../../hooks";

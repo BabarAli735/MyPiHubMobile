@@ -1,4 +1,4 @@
-import { Ionicons } from 'react-native-vector-icons';
+import  Ionicons  from 'react-native-vector-icons/Ionicons';
 import { useNavigation } from '@react-navigation/core';
 import React, { useCallback } from 'react';
 import { Linking, Platform } from 'react-native';

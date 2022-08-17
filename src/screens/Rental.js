@@ -64,7 +64,7 @@ const Rental = () => {
                   <Text p transform="capitalize">
                     {option?.type}
                     {' • '}
-                    {t('common.guests', {count: option?.guests})}
+                    {t('common:guests', {count: option?.guests})}
                     {' • '}
                     {option?.sleeping?.total} {option?.sleeping?.type}
                   </Text>

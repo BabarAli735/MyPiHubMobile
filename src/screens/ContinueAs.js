@@ -1,14 +1,16 @@
+
 import  AntDesign  from 'react-native-vector-icons/AntDesign';
 import { useNavigation } from "@react-navigation/native";
 import React, { useContext } from "react";
 import { Block, Image, Input, RoleCard, Text } from "../components";
 import { AuthContext } from "../contexts/auth";
-import { useTheme, useTranslation } from "../hooks";
-
+import { useTheme } from "../hooks";
+import {useTranslation} from 'react-i18next'
 const ContinueAs = () => {
   const { setRole } = useContext(AuthContext);
   const { navigate } = useNavigation();
-  const { t } = useTranslation();
+  const {t, i18n } = useTranslation();
+  // i18n.changeLanguage('en')
   const { assets, colors, fonts, gradients, sizes } = useTheme();
 
   return (
@@ -25,7 +27,7 @@ const ContinueAs = () => {
           style={{ alignItems: "center", justifyContent: "center" }}
         >
           <Text h5 center white>
-            {t("login.title")} to MyPatientHUB
+            {t("login:title")} to MyPatientHUB
           </Text>
         </Image>
       </Block>
@@ -33,12 +35,12 @@ const ContinueAs = () => {
       <Block color={colors.card} flex={0} padding={sizes.padding}>
         <Input
           search
-          placeholder={"common.search"}
+          placeholder={t("common.search")}
           icon={
             <AntDesign
               name="qrcode"
               size={20}
-              style={{ marginHorizontal: 10 }}
+              style={{ marginHorizontal: 10,}}
             />
           }
         />

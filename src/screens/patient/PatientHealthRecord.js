@@ -1,10 +1,10 @@
-import { AntDesign } from 'react-native-vector-icons/AntDesign';
+import  AntDesign  from 'react-native-vector-icons/AntDesign';
 import { Divider, HStack } from "native-base";
 import React from "react";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { Block, Image, Input, Text } from "../../components";
-import { useTheme, useTranslation } from "../../hooks";
-
+import { useTheme } from "../../hooks";
+import {useTranslation} from 'react-i18next'
 const RecordElement = ({ item }) => {
   const { colors, icons, gradients, sizes } = useTheme();
 

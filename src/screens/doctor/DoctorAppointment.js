@@ -1,4 +1,4 @@
-import { MaterialCommunityIcons } from "react-native-vector-icons";
+import  MaterialCommunityIcons  from "react-native-vector-icons/MaterialCommunityIcons";
 import DatePicker from "@react-native-community/datetimepicker";
 import { useNavigation } from "@react-navigation/native";
 import dayjs from "dayjs";
@@ -20,8 +20,8 @@ import LineChart from "../../components/charts/LineChart";
 import Points from "../../components/charts/Points";
 import SelectActionSheet from "../../components/SelectActionSheet";
 import { mocks } from "../../constants";
-import { useData, useTheme, useTranslation } from "../../hooks";
-
+import { useData, useTheme } from "../../hooks";
+import {useTranslation} from 'react-i18next'
 const datesData = {
   [dayjs().add(-3, "day").format("YYYY-MM-DD")]: {
     Morning: ["10:30 AM", "11:00 AM", "11:22 AM"],
@@ -168,7 +168,9 @@ export default () => {
         width="100%"
         row
         gradient={gradients.info}
-        onPress={() => navigate("PatientFindDoctor")}
+        onPress={() =>{
+          //  navigate("PatientFindDoctor")
+          }}
       >
         <Block row align="center" justify="center" paddingHorizontal={sizes.sm}>
           <Text size={12} white bold transform="uppercase">

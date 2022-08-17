@@ -1,4 +1,4 @@
-import { MaterialIcons } from "react-native-vector-icons";
+import  MaterialIcons  from "react-native-vector-icons/MaterialIcons";
 import { useNavigation } from "@react-navigation/native";
 import { Box, Center, HStack, Input, Stack, Text, VStack } from "native-base";
 import React, { useState } from "react";

@@ -1,4 +1,4 @@
-import { FontAwesome5 } from "react-native-vector-icons";
+import  FontAwesome5  from "react-native-vector-icons/FontAwesome5";
 import { useNavigation } from "@react-navigation/native";
 import { Box, Divider, HStack, Stack, Text } from "native-base";
 import { Block, Button, Text as MyText } from "../../../components";

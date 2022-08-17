@@ -1,4 +1,5 @@
-import { AntDesign, FontAwesome5 } from "react-native-vector-icons";
+import  FontAwesome5  from "react-native-vector-icons/FontAwesome5";
+import  AntDesign  from "react-native-vector-icons/AntDesign";
 import { useNavigation } from "@react-navigation/native";
 import { HStack, Image, Text as NText, VStack } from "native-base";
 import React from "react";

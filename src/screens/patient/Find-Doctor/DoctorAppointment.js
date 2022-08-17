@@ -1,4 +1,6 @@
-import { FontAwesome5, MaterialCommunityIcons } from "react-native-vector-icons";
+
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import { useNavigation } from "@react-navigation/native";
 import dayjs from "dayjs";
 import { Avatar, HStack, Text, VStack } from "native-base";

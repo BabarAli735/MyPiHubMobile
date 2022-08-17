@@ -6,7 +6,9 @@ import AuthProvider from "./src/contexts/auth";
 import ClinicProvider from "./src/contexts/clinic";
 import { DataProvider } from "./src/hooks";
 import AppNavigator from "./src/navigation/App";
-
+import './src/constants/translations/Dclocalization';
+import {useTranslation} from 'react-i18next';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 LogBox.ignoreLogs([
   "Each child in a list should",
   "Warning: Encountered two children with the same key",

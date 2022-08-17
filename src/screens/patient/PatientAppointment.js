@@ -1,4 +1,4 @@
-import { MaterialCommunityIcons } from "react-native-vector-icons";
+import  MaterialCommunityIcons  from "react-native-vector-icons/MaterialCommunityIcons";
 import DatePicker from "@react-native-community/datetimepicker";
 import { useNavigation } from "@react-navigation/native";
 import dayjs from "dayjs";
@@ -26,8 +26,8 @@ import LineChart from "../../components/charts/LineChart";
 import Points from "../../components/charts/Points";
 import SelectActionSheet from "../../components/SelectActionSheet";
 import { mocks } from "../../constants";
-import { useTheme, useTranslation } from "../../hooks";
-
+import { useTheme } from "../../hooks";
+import {useTranslation} from 'react-i18next'
 const PatientAppointment = () => {
   const [isReasonModalOpen, setIsReasonModalOpen] = useState(false);
   const [isPriorityModalOpen, setIsPriorityModalOpen] = useState(false);

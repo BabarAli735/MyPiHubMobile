@@ -1,4 +1,4 @@
-import { FontAwesome5 } from "react-native-vector-icons";
+import  FontAwesome5  from "react-native-vector-icons/FontAwesome5";
 import { Center, HStack, Text, VStack } from "native-base";
 import React from "react";
 import { StyleSheet } from "react-native";

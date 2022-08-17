@@ -1,18 +1,17 @@
-import {
-  FontAwesome5,
-  MaterialCommunityIcons,
-  MaterialIcons,
-} from "react-native-vector-icons";
+
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
 import React from "react";
-import { TouchableOpacity } from "react-native";
-import { useTheme, useTranslation } from "../hooks";
+import { TouchableOpacity,Text } from "react-native";
+import { useTheme, } from "../hooks";
+import {useTranslation} from 'react-i18next'
 import Block from "./Block";
-import Text from "./Text";
+// import Text from "./Text";
 
 const RoleCard = ({ type, linkLabel, onPress }) => {
   const { t } = useTranslation();
   const { assets, colors, sizes } = useTheme();
-
   const isHorizontal = true;
   const CARD_WIDTH = (sizes.width - sizes.padding * 2 - sizes.sm) / 2;
 

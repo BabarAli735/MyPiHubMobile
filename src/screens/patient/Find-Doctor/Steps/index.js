@@ -1,4 +1,5 @@
-import { FontAwesome, MaterialCommunityIcons } from "react-native-vector-icons";
+import  MaterialCommunityIcons  from "react-native-vector-icons/MaterialCommunityIcons";
+import  FontAwesome  from "react-native-vector-icons/FontAwesome";
 import React from "react";
 import { View } from "react-native";
 import { useTheme } from "../../../../hooks";

@@ -12,7 +12,8 @@ import {
   ScrollView,
 } from "native-base";
 import { useTheme } from "../../../hooks";
-import { MaterialCommunityIcons, AntDesign } from "react-native-vector-icons";
+import  AntDesign  from "react-native-vector-icons/AntDesign";
+import  MaterialCommunityIcons  from "react-native-vector-icons/MaterialCommunityIcons";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
 export default () => {

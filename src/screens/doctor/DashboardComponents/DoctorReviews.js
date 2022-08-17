@@ -1,4 +1,4 @@
-import { MaterialCommunityIcons } from "react-native-vector-icons";
+import  MaterialCommunityIcons  from "react-native-vector-icons/MaterialCommunityIcons";
 import dayjs from "dayjs";
 import { Avatar, HStack, Icon, Text, VStack } from "native-base";
 import { useTheme } from "../../../hooks";

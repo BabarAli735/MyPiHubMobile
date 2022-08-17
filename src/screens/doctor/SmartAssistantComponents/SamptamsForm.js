@@ -8,7 +8,8 @@ import { Block, Button, Image, Input, Text } from "../../../components";
 import SelectActionSheet from "../../../components/SelectActionSheet";
 import * as regex from "../../../constants/regex";
 import { AuthContext } from "../../../contexts/auth";
-import { useTheme, useTranslation } from "../../../hooks";
+import { useTheme,  } from "../../../hooks";
+import {useTranslation} from 'react-i18next'
 
 const isAndroid = Platform.OS === "android";
 

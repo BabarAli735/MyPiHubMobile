@@ -1,4 +1,4 @@
-import { FontAwesome5 } from "react-native-vector-icons";
+import  FontAwesome5  from "react-native-vector-icons/FontAwesome5";
 import { Box, Center, Stack, Text } from "native-base";
 import React, { useCallback, useState } from "react";
 import { FlatList, StyleSheet } from "react-native";

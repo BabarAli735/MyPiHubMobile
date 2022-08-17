@@ -1,9 +1,8 @@
-import {
-  AntDesign,
-  FontAwesome5,
-  MaterialCommunityIcons,
-  MaterialIcons,
-} from 'react-native-vector-icons'
+
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
+import FontAwesome5 from 'react-native-vector-icons/FontAwesome5'
+import AntDesign from 'react-native-vector-icons/AntDesign'
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import {
   Box,
   Center,
